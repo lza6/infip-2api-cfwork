@@ -258,9 +258,9 @@ graph TB
     
     subgraph "☁️ 上游服务"
         E1[infip.pro<br/>🎨 AI 绘图服务]
-        E2[/api/generate-key<br/>🔑 密钥获取]
-        E3[/api/upload<br/>📤 图片上传]
-        E4[/api/generate-image<br/>🖼️ 图像生成]
+        E2["/api/generate-key<br/>🔑 密钥获取"]
+        E3["/api/upload<br/>📤 图片上传"]
+        E4["/api/generate-image<br/>🖼️ 图像生成"]
     end
     
     %% 数据流向
